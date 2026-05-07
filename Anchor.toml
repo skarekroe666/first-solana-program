@@ -1,11 +1,12 @@
 [toolchain]
 package_manager = "yarn"
+anchor_version = "0.32.1"
 
 [features]
 resolution = true
 skip-lint = false
 
-[programs.devnet]
+[programs.localnet]
 voting_app = "AbuZJBTkpUggSsX7ttWngEdiYBCVHY4fzz9BDdSA7RYe"
 
 [registry]
